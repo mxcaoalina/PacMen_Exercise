@@ -33,8 +33,8 @@ function makePac() {
   newimg.width = 100;
 
   // set position
-  newimg.style.position.left = position.x + "px";
-  newimg.style.position.top = position.y + "px";
+  newimg.style.left = position.x;
+  newimg.style.top = position.y;
   // add new Child image to game
   game.appendChild(newimg);
 
@@ -43,7 +43,7 @@ function makePac() {
     position,
     velocity,
     newimg,
-    currentImageIndex,//: randomImageIndex, 
+    currentImageIndex,// randomImageIndex, 
   };
 }
 
