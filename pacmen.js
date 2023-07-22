@@ -24,20 +24,26 @@ function makePac() {
   let game = document.getElementById('game');
   let newimg = document.createElement('img');
   newimg.style.position = 'absolute';
-  newimg.src = './PacMan1.png';
+  
+  // Define the PacMan image
+  let currentImageIndex = 0; 
+  newimg.src = pacArray[currentImageIndex][0];
+
+
   newimg.width = 100;
 
   // set position
   newimg.style.position.left = position.x + "px";
   newimg.style.position.top = position.y + "px";
   // add new Child image to game
-  game.appendChild(/* TODO: add parameter */newimg);
+  game.appendChild(newimg);
 
   // return details in an object
   return {
     position,
     velocity,
     newimg,
+    currentImageIndex,//: randomImageIndex, 
   };
 }
 
@@ -54,14 +60,18 @@ function update() {
   setTimeout(update, 20);
 }
 
+
 function checkCollisions(item) {
   // detect collision with all walls and make pacman bounce
   if (item.position.x + item.velocity.x + item.newimg.width > window.innerWidth ||
   item.position.x + item.velocity.x < 0) {
+    item.newimg.src = pacArray[item.currentImageIndex][1]; //PacMan will close mouse when bouncing the wall
     item.velocity.x = -item.velocity.x;
+    item.currentImageIndex = (item.currentImageIndex + 1) % pacArray.length;
+    item.newimg.src = pacArray[item.currentImageIndex][0]; // change the image of PacMan based on direction
   }
 
-  if (item.position.y + item.velocity.y + item.newimg.height > window.innerWidth ||
+  if (item.position.y + item.velocity.y + item.newimg.height > window.innerHeight ||
   item.position.y +item.velocity.y < 0) {
     item.velocity.y = -item.velocity.y;
   }
