@@ -2,8 +2,11 @@
 
 <img src="PacMan1.png">
 
+
+
 <h2>Introduction</h2>
 Pacmen Exercise is a fun and interactive project that simulates the movement of PacMen on the screen. Inspired by the classic PacMan game, this exercise allows you to create multiple PacMen, each with their own unique speed and movement patterns. Watch as these PacMen roam around the screen, bouncing off the walls and changing direction, creating an engaging visual experience.
+
 
 
 <h2>How to Run</h2>
@@ -14,10 +17,12 @@ Pacmen Exercise is a fun and interactive project that simulates the movement of 
 5. Enjoy the mesmerizing movement of the PacMen as they traverse the screen.   
 
 
+
 <h2>Technologies Used</h2>
 <b>HTML</b><br>
 <b>CSS</b><br>
 <b>JavaScript</b><br>
+
 
 
 <h2>Roadmap of future improvements</h2>
@@ -28,8 +33,10 @@ Some plans to enhance the PacMen Exercise further:
 <b>Sound Effects:</b> integrate sound effects to enhance the gaming experience and invoke a sense of nostalgia.<br>
 
 
+
 <h2>License Information</h2>
 This project is licensed under the MIT License. You can find the full text of the license in the <b>'License'</b> file included in the repository.
+
 
 
 <h2>Acknowledgments</h2>
