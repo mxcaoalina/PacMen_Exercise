@@ -1,31 +1,32 @@
 # pacmen
-Factory for making pacmen
-You are given a starter.html code.
-When button "make one" is pressed you need to complete the code 
-to position the new pacman image and add it to the "game" div. It is then added to the array of pacmen, which keeps track of the position and velocity of each pacman.
-You also need to make each pacman bounce off any wall it hits. 
-Start by getting at least one pacman positioned and viewable. 
+<h1>PacMen Exercise</h1>
 
 <img src="PacMan1.png">
-
-
-<h1>PacMen Exercise</h1>
 
 <h2>Introduction</h2>
 Pacmen Exercise is a fun and interactive project that simulates the movement of PacMen on the screen. Inspired by the classic PacMan game, this exercise allows you to create multiple PacMen, each with their own unique speed and movement patterns. Watch as these PacMen roam around the screen, bouncing off the walls and changing direction, creating an engaging visual experience.
 
+<h2>How to Run</h2>
+1. Clone the repository to your local machine
+2. Open the 'Index.html' file in your web browser
+3. Each time click the "make one" button will create a new PacMan on the screen
+4. Click "start game" button to initiate the animation and watch the PacMen in action!
+5. Enjoy the mesmerizing movement of the PacMen as they traverse the screen.
 
+<h2>Technologies Used</h2>
+<b>HTML</b>
+<b>CSS</b>
+<b>JavaScript</b>
 
+<h2>Roadmap of future improvements</h2>
+Some plans to enhance the PacMen Exercise further:
 
-How to Run: This is information someone would use to get started running your project on their machine. 
+<b>User Interaction:</b> Implement user controls to influence the movement and behavior of the PacMen during the animation.
+<b>Power-Ups:</b> Intorduce power-ups that modify the PacMen's speeds or provide temporary invincibility.
+<b>Sound Effects:</b> integrate sound effects to enhance the gaming experience and invoke a sense of nostalgia.
 
+<h2>License Information</h2>
+This project is licensed under the MIT License. You can find the full text of the license in the <b>'License'</b> file included in the repository.
 
-First clone the project to the local server. Then simply drag the html file to any browser.
-When the eyes appear on the screen, it's the play time!!!
-Just simply move the mouse, the eyes will catch it!!!
-
-
-<h1>Roadmap of future improvements</h1>
-
-This should be a few sentences describing what you plan to work on next in this repository. 
-License information: This should include information about the MIT license. 
+<h2>Acknowledgments</h2>
+A special thank you to Professor Williams who inspired and paved the way for this project.
